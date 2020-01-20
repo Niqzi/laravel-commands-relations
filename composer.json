@@ -1,0 +1,26 @@
+{
+    "name": "commands/relations",
+    "description": "Console commands for create relations",
+    "authors": [
+        {
+            "name": "Niyazi Hasan",
+            "email": "niyazi_1992@abv.bg"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Commands\\Relations\\Providers\\CommandsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\Relations\\": "src/"
+        }
+    }
+}
